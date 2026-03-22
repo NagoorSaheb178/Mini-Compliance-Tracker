@@ -12,6 +12,7 @@ export default function ClientList({ clients }) {
                 <Link
                     key={client._id}
                     href={`/client/${client._id}`}
+                    prefetch={true}
                     className="block p-5 sm:p-6 bg-white border border-zinc-200 rounded-xl shadow-sm hover:border-zinc-300 hover:shadow-md transition-all duration-200 ease-in-out hover:-translate-y-1 active:scale-95 touch-manipulation dark:bg-zinc-900 dark:border-zinc-800 dark:hover:border-zinc-600"
                 >
                     <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100 mb-2">
