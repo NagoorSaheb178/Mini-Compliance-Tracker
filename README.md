@@ -41,7 +41,7 @@ A clean, responsive, and mobile-friendly compliance task tracking application de
    ```
 
 3. **Set up environment variables:**
-   Create a `.env.local` file in the root directory and add your MongoDB connection string:
+   Create a `.env` file in the root directory and add your MongoDB connection string:
    ```env
    MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/compliance_tracker?retryWrites=true&w=majority
    ```
