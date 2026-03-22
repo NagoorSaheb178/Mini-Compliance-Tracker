@@ -44,6 +44,7 @@ export default async function Home() {
       <div className="flex gap-4 pt-4">
         <Link
           href="/clients"
+          prefetch={true}
           className="inline-flex w-full md:w-auto items-center justify-center px-6 py-4 rounded-xl bg-zinc-900 text-white font-semibold shadow-sm hover:bg-zinc-800 hover:shadow dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200 transition-all duration-200 active:scale-95 touch-manipulation"
         >
           View All Clients
